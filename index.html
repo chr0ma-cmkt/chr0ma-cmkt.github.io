@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMKT - Welcome</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #ff0000;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: white;
+        }
+        header .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            cursor: pointer;
+        }
+        .carousel {
+            position: relative;
+            overflow: hidden;
+            height: 400px;
+        }
+        .carousel img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .carousel-controls {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
+        .carousel-controls button {
+            background-color: rgba(0, 0, 0, 0.5);
+            border: none;
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        footer a {
+            color: #ff0000;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">CMKT</div>
+    <nav>
+        <ul>
+            <li>Games</li>
+            <li>Hardware</li>
+            <li>News</li>
+            <li>Support</li>
+        </ul>
+    </nav>
+</header>
+
+<section class="carousel">
+    <img src="https://via.placeholder.com/1200x400" alt="Featured Product 1">
+    <div class="carousel-controls">
+        <button>&lt;</button>
+        <button>&gt;</button>
+    </div>
+</section>
+
+<main>
+    <section>
+        <h2>Welcome to CMKT</h2>
+        <p>discover html, help from us, and more</p>
+    </section>
+</main>
+
+<footer>
+    <pm>cmkt, providing help for everyone</p>
+    <p>
+        <a href="#">Contact Us</a>
+    </p>
+</footer>
+
+</body>
+</html>
